@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: #253a49;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(back\ \(1\).jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 110px;
+    margin: auto;
+    background-color: rgb(41, 43, 44);
+    
+}
+.navbar{
+    width: 100%;
+}
+
+.icon{ 
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 700px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+.home{
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    opacity: 60%;
+}
+
+.home h3{
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.home a{
+    text-decoration: none;
+    margin-left: 800px;
+    color: rgb(37, 35, 35);
+}
+.home a:hover{
+    color: rgb(248, 246, 244);
+}
+.heading h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.heading p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    justify-content: center;
+}
+.heading h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    justify-content: center;  
+}
+
+.about{
+    margin-left: 400px;
+    /* margin-right: 40px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+img{
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.about h3{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-right: 500px;
+}
+.about p{
+    padding-top: 6px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.about a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.about button{
+    background: orange;
+    margin-left: 60px;
+    padding-top: 10px 10px;
+    margin-top: 19px;
+    border: none;
+}
+
+.about a:hover{
+    background: white;
+}

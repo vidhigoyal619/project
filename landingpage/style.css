@@ -1,0 +1,689 @@
+/* -----------------------------Index page css----------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    max-width: 100%;
+   background: #253a49;
+    background-position: center;
+    background-size: cover;
+    min-height: 130vh;
+}
+
+.navbar{
+    max-width: 1200px;
+    min-height: 110px;
+    margin-left: 100px;
+    background-color: rgb(41, 43, 44);
+    
+}
+.navbar{
+    max-width: 100%;
+}
+
+.icon{ 
+    max-width: 20px;
+    float: left;
+    min-height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.menu{
+    float: right;
+    text-align: right;
+    min-height: 70px;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+
+}
+
+.content{
+    max-width: 1200px;
+    min-height: auto;
+    margin: auto;
+    color: aliceblue;
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.content h1{
+    font-family: 'Arial';
+    font-size: 70px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.content .bn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .bn a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.bn:hover{
+    background-color: white;
+}
+.content p{
+  line-height: 50px;
+  font-size: 30px;
+  margin-left: 16px;
+  margin-bottom: 22px;
+  margin-top: 12px;
+}
+/* ---------------------------------Contact page css------------------------------------------- */
+.form{
+    width: 550px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.8)50%, rgba(0,0,0, 0.8)50%);
+    position: absolute;
+    top: 690px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 25px; 
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    border-radius: 10px;
+    /* margin: 2px; */
+    padding: 5px;
+    margin-left: 150px;
+   
+}
+
+.form input{
+    width: 240px;
+    height: 55px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.but{
+    width: 240px;
+    height: 30px;
+    background: orange;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+    padding-top: 15px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.but:hover{
+   background: white;
+    color: black;
+}
+
+.but a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+}
+
+.form{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.time {
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 170px;
+    color: white;
+    padding-top: 50px;
+   line-height: 50px;
+   display: inline-block;
+   text-align: center;
+
+}
+
+.mail{
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 120px;
+    color: white;
+    padding-top: 50px;
+   line-height: 50px;
+   text-align: center;
+   display: inline-block;
+}
+
+.web{
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 130px;
+    color: white;
+   text-align: center;
+   align-items: right;
+   display: inline-block;
+   line-height: none;
+   padding-top: 50px;
+   line-height: 50px;
+}
+
+.web h3 p{
+    margin: 0px;
+   padding: 80px;
+}
+
+.time{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.8)50%, rgba(0,0,0, 0.8)50%);
+    
+}
+.mail{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.8)50%, rgba(0,0,0, 0.8)50%);    
+}
+
+.web{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.8)50%, rgba(0,0,0, 0.8)50%);
+    text-align: center;
+}
+
+.home{
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    opacity: 60%;
+}
+
+.home h3{
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.home a{
+    text-decoration: none;
+    margin-left: 800px;
+    color: rgb(37, 35, 35);
+}
+.home a:hover{
+    color: rgb(248, 246, 244);
+}
+#image{
+    height: 0px;
+    /* size-adjust: 20px; */
+    margin-left: 600px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    width: 0px;  
+}
+#image img{
+    height: 500px;
+    margin-top: 80px;
+    padding-top: 0px;
+}
+.footer {
+    background: rgba(255, 166, 0, 0.611);
+  }
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: #414544;
+  }
+  
+  .footer .box-container .box .share {
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #525755;
+    color: #fff;
+    margin-right: .3rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background-color: #444;
+  }
+  
+  .footer .box-container .box .link {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #777;
+    padding: .5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover {
+    color: #444;
+    text-decoration: underline;
+  }
+  
+  .footer .box-container .box p {
+    font-size: 1rem;
+    line-height: 2;
+    color: #777;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1rem;
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #444;
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;
+  }
+  
+  @media (max-width: 1200px) {
+    .header {
+      padding: 2rem 5%;
+      
+    }
+    section {
+      padding: 3rem 5%;
+    }
+    body{
+      font-size: 40%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 20%;
+    }
+    .header {
+      padding: 2rem;
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    
+  }
+
+
+  /* ---------------------------------Internship css starts--------------------------- */
+.container{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 2s linear;
+}
+
+.container{
+  /* background: linear-gradient(to top, rgba(41, 43, 44), rgba(41, 43, 44)); */
+  padding: 15px 9%;
+  background: #253a49;
+  padding-bottom: 70px;
+
+}
+
+.container .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 30px;
+}
+
+.box img{
+  width: 400px;
+  height: 400px;
+  padding-top: 30px;
+}
+
+.container .box-container .box{
+  box-shadow: 0px 5px 5px black;
+  border-radius: 4px;
+  background: white;
+  text-align: center;
+  height: 700px;
+  /* padding: 30px 30px; */
+}
+
+.container .box-container .box h3{
+  color: black;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.container .box-container .box p{
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px 10px;
+  line-height: 1.2;
+}
+.intern button{
+  height: 500px;
+  width: 200px;
+  margin-top: 20px;
+}
+.p{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: orange;
+  text-align: center;
+}
+.intern a{
+  text-decoration: none;
+}
+.intern :hover{
+  background-color: white;
+}
+
+
+/* --------------------internship css ends-------------------------- */
+
+/* --------------------about css starts-------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.about{
+  width: 100%;
+  background: #253a49;
+  /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(back\ \(1\).jpg); */
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 110px;
+  margin: auto;
+  background-color: rgb(41, 43, 44);
+  
+}
+.navbar{
+  width: 100%;
+}
+
+.icon{ 
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: orange;
+  font-size: 35px;
+  font-family: Arial;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+  margin-left: 700px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ul li{
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 27px;
+  font-size: 30px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: orange;
+
+}
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: aliceblue;
+}
+
+.content .para{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.home{
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+  opacity: 60%;
+}
+
+.home h3{
+  font-size: 30px;
+  font-family: arial;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  display: inline-block;
+}
+
+.home a{
+  text-decoration: none;
+  margin-left: 800px;
+  color: rgb(37, 35, 35);
+}
+.home a:hover{
+  color: rgb(248, 246, 244);
+}
+.heading h1{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+.heading p{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  justify-content: center;
+}
+.heading h3{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  justify-content: center;  
+}
+
+.about{
+  margin-left: 400px;
+  /* margin-right: 40px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+}
+
+img{
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+.about h3{
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-right: 500px;
+}
+.about p{
+  padding-top: 6px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-right: 500px;
+}
+
+.about a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.about button{
+  background: orange;
+  margin-left: 60px;
+  padding-top: 10px 10px;
+  margin-top: 19px;
+  border: none;
+}
+
+.about a:hover{
+  background: white;
+}
+/* --------------------about css ends-------------------------- */
