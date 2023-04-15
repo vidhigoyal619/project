@@ -1,0 +1,623 @@
+:root{
+    --yellow:#f9ca24;
+}
+hr{
+    width:80%;
+    color: #fff;
+}
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+outline: none;
+border: none;
+text-transform: capitalize;
+transition: all .2s linear;
+}
+
+::selection{
+    background: var(--yellow);
+    color: #333;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;   
+}
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+html::-webkit-scrollbar-track{
+    background: #333;
+}
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+
+body{
+    background: #111;
+    overflow-x:hidden ;
+    padding-left: 35rem;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid var(--yellow);
+}
+
+header .user .name{
+    font-size: 3.5rem;
+    color: #fff;
+}
+header .user .post{
+    font-size: 2rem;
+    color: #eee;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+header .socials ul{
+    list-style: none;
+    display: flex;
+}
+.socials ul li a{
+    padding: 1rem;
+    margin: 1.5rem .75rem;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.socials ul li a:hover{
+    background: var(--yellow);
+}
+header .navbar ul li a:hover{
+   background: var(--yellow); 
+}
+.menu{
+  position:absolute;
+  top: 60px;
+  right: 3%;
+  background: #fff;
+  /* color: #fff; */
+  cursor: pointer;
+  /* font-size: 2.5rem; */
+  z-index:5;
+  /* padding: 1rem 1.5rem;*/
+  display: none;   
+  width: 35px;
+  height: 24px;
+}
+.menu span{
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    transition-property: transform, opacity;
+}
+.menu span:nth-child(2){
+    margin: 7px 0px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.home h3{
+    font-size: 5rem;
+    color: #fff;
+}
+.home h1{
+    font-size: 5rem;
+    color: #fff;
+}
+section{
+    min-height:100vh;
+padding: 1rem;
+}
+
+.btn{
+    padding: .7rem 3rem;
+    background:#333;
+    color: #fff;
+    cursor: pointer;
+    margin-top:1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: var(--yellow);
+}
+.home p{
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.home span{
+    color: #f9ca24;
+}
+
+/*----------------- css for about ------------------- */
+section .about{
+    margin: 0;
+    padding: 0;
+    top: 0px;
+}
+.me{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 10rem;
+}
+hr {
+    display: block;
+    size: 500px;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px; 
+    color: #333;
+}
+.about1 ul li{ 
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 1em;
+    word-spacing: 3px;
+    line-height: 14px;
+}
+.about1 span{
+    color: #f9ca24;
+}
+.resume button{
+    padding: .7rem 3rem;
+    background:#333;
+    color: #fff;
+    cursor: pointer;
+    margin-top:1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+    margin-left: 14px;
+}
+.resume button a{
+    text-decoration: none;
+    color: #fff;
+}
+.resume button:hover{
+    background: var(--yellow);
+}
+.cent{
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* section skills */
+.skills section{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills1 li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 4px;
+    padding-bottom: 1rem;
+}
+.skills hr{
+    margin-bottom: 3rem;
+}
+.skills1 h2{
+    
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.skills1 span{
+    color: #f9ca24;
+}
+.skills1 h3{
+    margin: 5px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.skills1{
+    width: 700px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 4px 6px;
+    box-shadow: 0 14px 28px rgba(82, 80, 80, 0.25),
+    0 10px 10px rgba(82, 80, 80, 0.25);
+    padding-bottom: 6rem;
+}
+.bar{
+    background: #333;
+    display: block;
+    height:10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(82, 80, 80, 0.25),
+    0 1px 2px rgba(82, 80, 80, 0.25);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(82, 80, 80, 0.25),
+    0 10px 10px rgba(82, 80, 80, 0.25);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    /* background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%); */
+    background:  #f9ca24;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.c{
+    width: 80%;
+    animation: c 3s;
+}
+.cpp{
+    width: 80%;
+    animation: cpp 3s;
+}
+.canva{
+    width: 85%;
+    animation: canva 3s;
+}
+.creative{
+    width: 87%;
+    animation: creative 3s;
+}
+.com{
+    width: 75%;
+    animation: com 3s;
+}
+.excel{
+    width: 80%;
+    animation: excel 3s;
+}
+.power{
+    width: 80%;
+    animation: power 3s;
+}
+.dsa{
+        width: 50%;
+        animation: dsa 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes cpp{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes canva{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes com{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes excel{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes power{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes dsa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes creative{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%;
+    }
+}
+
+/* Section education css starts */
+
+.edu{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.education{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 30px;
+}
+.edu h1{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 65px;
+}
+.educat span{
+    color: #f9ca24;
+}
+.deg{
+    margin: 50px;
+}
+.educat .deg{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    background: #f9ca24;
+}
+.deg h3{
+    font-size: 50px;
+    text-align: center;
+    padding: 12px 12px;
+}
+.deg hr{
+    width: 200px;
+    height: 10px;
+    color: #111;
+    background-color: #111;
+    border-color: #111;
+
+}
+.deg p{
+    font-size: 25px;
+    text-align: center;
+    padding: 12px 12px;
+    line-height: 40px;
+}
+/* ------------------- */
+.twelve{
+    margin: 50px;
+    display: block;
+}
+.educat .twelve{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    background: #f9ca24;
+}
+.twelve h3{
+    font-size: 50px;
+    text-align: center;
+    padding: 12px 12px;
+}
+.twelve hr{
+    width: 200px;
+    height: 10px;
+    color: #111;
+    background-color: #111;
+    border-color: #111;
+
+}
+.twelve p{
+    font-size: 25px;
+    text-align: center;
+    padding: 12px 12px;
+    line-height: 40px;
+}
+/* ------------------ */
+.ten{
+    margin: 50px;
+}
+.educat .ten{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    background: #f9ca24;
+}
+.ten h3{
+    font-size: 50px;
+    text-align: center;
+    padding: 12px 12px;
+}
+.ten hr{
+    width: 200px;
+    height: 10px;
+    color: #111;
+    background-color: #111;
+    border-color: #111;
+
+}
+.ten p{
+    font-size: 25px;
+    text-align: center;
+    padding: 12px 12px;
+    line-height: 40px;
+}
+
+/* Section education css ends */
+
+/* Section contact css starts */
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+form .boxes{
+    display: flex;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #eee;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 700px;
+    margin-right: 5rem;
+}
+form .boxes::placeholder{
+    text-transform: capitalize;
+}
+.contact form{
+    margin-top: 5rem;
+}
+.contact .row form .box-msg{
+    height: 17rem;
+    resize: none;
+    width: 700px;
+    background: #333;
+    color: #eee;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+}
+form .bt{
+    display: flex;
+    margin-top: 10px;
+    color: #111;
+    background: #f9ca24;
+    font-size: 1.7rem;
+    padding: 10px 20px;
+    border-radius: 18px;
+}
+.bt:hover{
+    color: #111;
+    background: #eee;
+}
+.contact h2{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+.contact span{
+    color: #f9ca24;
+}
+.contact .row .content .title{
+    font-size: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+}
+.contact .row .content .info h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    font-weight: normal;
+}
+/* Section contact css ends */
+/* scroll button */
+.top{
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    color: #eee;
+    z-index: 100;
+}
